@@ -1,0 +1,48 @@
+#first{
+    height: 500px;
+    width: 200px;
+    margin: 45px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    display: block;
+    border: 2px solid black ;
+    color: brown;
+}
+
+#second{
+    height: 500px;
+    width: 250px;
+    margin: 45px;
+
+    text-align: center;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: chocolate;
+    border: 2px solid black;
+}
+
+#button{
+    color: wheat;
+    background-color: black;
+}
+
+#button:hover{
+    color: white;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+#first:hover{
+    color: pink;
+    border-radius: 20px;
+    background-color: black;
+}
+
+#second:hover{
+    color: purple;
+    background-color: black;
+    border-radius: 20px;
+}
