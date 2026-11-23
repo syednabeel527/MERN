@@ -4,6 +4,7 @@
     width: 400px;
     border: 10px solid black;
     border-radius: 50%;
+    transition: 3s;
 }
 
 #mouth{
@@ -13,34 +14,69 @@
     position: relative;
     top: 250px;
     left: 100px;
-    border-end-end-radius: 70px;
-    border-bottom-left-radius: 70px;
+    border-end-end-radius: 100px;
+    border-bottom-left-radius: 100px;
 }
 
 #eye1{
     background-color: black;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 50px;
     position: relative;
-    left: 50px;
+    left: 70px;
+}
+
+#eyeball1{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    position: relative;
+    left: 25px;
+    top: 25px;
 }
 
 #eye2{
     background-color: black;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     border-radius: 50px;
     position: relative;
     left: 250px;
-    bottom: 100px;
+    bottom: 73px;
     display: inline-block;
 }
 
+#eyeball2{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    position: relative;
+    left: 25px;
+    top: 25px;
+}
 
-#outer:hover{
+/* #outer:hover{
     background-color: purple;
-    transition: 3s;
     box-shadow: 50px 50px 100px black;
     border: 5px solid white;
+    transform: rotate(45deg);
+    transition-delay: 0.5s;
+} */
+
+/* #outer {
+    transition:
+        background-color 1s ease-in-out,
+        transform 1s ease-in-out,
+        box-shadow 1s ease,
+        border 1s ease;
 }
+
+#outer:hover {
+    background-color: purple;
+    box-shadow: 50px 50px 100px black;
+    border: 5px solid white;
+    transform: rotate(45deg);
+} */
