@@ -1,0 +1,44 @@
+#outer{
+    background-color: yellow;
+    height: 400px;
+    width: 400px;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+
+#mouth{
+    background-color: rgba(255, 0, 0, 0.7);
+    height:100px;
+    width:200px;
+    position: relative;
+    top: 250px;
+    left: 100px;
+    border-end-end-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+
+#eye1{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: relative;
+    left: 50px;
+}
+
+#eye2{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: relative;
+    left: 250px;
+    bottom: 100px;
+    display: inline-block;
+}
+
+
+#outer:hover{
+    background-color: purple;
+    transition: 3s;
+}

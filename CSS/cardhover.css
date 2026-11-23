@@ -1,0 +1,20 @@
+#men{
+    display: inline-block;
+    margin: 45px;
+    background-color:rgba(60,60,255,0.6);
+    padding: 25px;
+    box-shadow: 5px 5px 25px yellow;
+}
+
+#women{
+    display: inline-block;
+    margin: 45px;
+    background-color: rgba(255,100,200,0.5);
+    padding: 25px;
+    box-shadow: 5px 5px 25px yellow;
+}
+
+#men:hover, #women:hover {
+    box-shadow: 10px 10px 50px black;
+    transition: 3s;
+}
