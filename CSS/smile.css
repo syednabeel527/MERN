@@ -41,4 +41,6 @@
 #outer:hover{
     background-color: purple;
     transition: 3s;
+    box-shadow: 50px 50px 100px black;
+    border: 5px solid white;
 }
