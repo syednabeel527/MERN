@@ -72,11 +72,14 @@
         transform 1s ease-in-out,
         box-shadow 1s ease,
         border 1s ease;
-}
+} */
 
-#outer:hover {
+/* #outer:hover {
     background-color: purple;
     box-shadow: 50px 50px 100px black;
     border: 5px solid white;
     transform: rotate(45deg);
-} */
+}
+
+transition: transform 2s ease-in-out; */
+
