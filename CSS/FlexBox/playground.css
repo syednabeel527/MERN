@@ -1,11 +1,14 @@
 #container{
-    height: 200px;
+    height: 500px;
     width: 80%;
     background-color: azure;
     margin: 10px auto;
     border: 2px solid black;
-    display: flex;
-    flex-direction: row;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-end; 
+    flex-wrap: wrap;
+    align-content: flex-end;
 }
 
 h1{
@@ -13,7 +16,7 @@ h1{
 }
 
 #container div {
-    height: 100px;
+    height: 50px;
     width: 100px;
     color: white;
     text-align: center;
